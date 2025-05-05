@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brenda\\Desktop\\BrendaDevs\\PPAI2025\\PPAI2025.csproj": {}
+    "C:\\Users\\Brenda\\Desktop\\PPAI2025\\PPAI2025.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brenda\\Desktop\\BrendaDevs\\PPAI2025\\PPAI2025.csproj": {
+    "C:\\Users\\Brenda\\Desktop\\PPAI2025\\PPAI2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brenda\\Desktop\\BrendaDevs\\PPAI2025\\PPAI2025.csproj",
+        "projectUniqueName": "C:\\Users\\Brenda\\Desktop\\PPAI2025\\PPAI2025.csproj",
         "projectName": "PPAI2025",
-        "projectPath": "C:\\Users\\Brenda\\Desktop\\BrendaDevs\\PPAI2025\\PPAI2025.csproj",
+        "projectPath": "C:\\Users\\Brenda\\Desktop\\PPAI2025\\PPAI2025.csproj",
         "packagesPath": "C:\\Users\\Brenda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brenda\\Desktop\\BrendaDevs\\PPAI2025\\obj\\",
+        "outputPath": "C:\\Users\\Brenda\\Desktop\\PPAI2025\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

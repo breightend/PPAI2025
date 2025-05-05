@@ -1,5 +1,5 @@
 @page "/redsismica"
-@using System.Globalization // Needed for DateOnly parsing
+@using System.Globalization
 
 <PageTitle>Red Sísmica</PageTitle>
 
@@ -7,7 +7,7 @@
 
     <MudButton Variant="Variant.Text"
                StartIcon="@Icons.Material.Filled.ArrowBackIos"
-               Href=""  // Navigate back to the root/index page
+               Href="/" 
                Class="mb-4"> 
         Volver
     </MudButton>
@@ -23,7 +23,7 @@
         </MudItem>
     </MudGrid>
 
-    <MudPaper Class="pa-4" Elevation="3"> // Wrap table in MudPaper for visual separation and padding
+    <MudPaper Class="pa-4" Elevation="3"> 
         <MudTable Items="@inspectionOrders" Dense="true" Hover="true" Striped="true" Breakpoint="Breakpoint.Sm"> 
             <HeaderContent>
                 <MudTh>@headings[0]</MudTh>  @* N° Orden *@
@@ -46,10 +46,10 @@
 </MudContainer>
 
 @code {
-    // Headings remain the same
+   
     private string[] headings = { "N° Orden", "Fecha finalización", "Estación", "Identificador" };
 
-    // Use a list of objects instead of strings
+
     private List<InspectionOrder> inspectionOrders = new List<InspectionOrder>();
 
     // Populate the data in OnInitialized lifecycle method
@@ -66,11 +66,11 @@
         };
     }
 
-    // Define a class to represent an inspection order
+
     public class InspectionOrder
     {
         public int OrderNumber { get; set; }
-        public DateOnly CompletionDate { get; set; } // Use DateOnly for dates
+        public DateOnly CompletionDate { get; set; } 
         public string Station { get; set; }
         public string Identifier { get; set; }
     }
