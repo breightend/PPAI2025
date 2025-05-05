@@ -1,0 +1,10 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<PageTitle> Home</PageTitle>
+
+
+
+<MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => NavigationManager.NavigateTo("/redsismica"))">
+    Cerrar orden de inspección
+</MudButton>
